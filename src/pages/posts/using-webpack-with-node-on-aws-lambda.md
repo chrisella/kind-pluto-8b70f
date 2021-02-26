@@ -15,7 +15,7 @@ template: post
 ---
 ## Lorem ipsum
 
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+I recently needed to setup some new architecture on AWS Lambda for a project. Node being the go-to language for most when writing Lambdas I got started as normal, however quickly missed the fuzzy feeling of type safety and decent autocompletion from my normal React + Typescript work.
 
-- Lorem ipsum
-- dolor sit amet
+*   Lorem ipsum
+*   dolor sit amet
