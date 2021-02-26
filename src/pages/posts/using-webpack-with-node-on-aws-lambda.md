@@ -13,9 +13,6 @@ seo:
   type: stackbit_page_meta
 template: post
 ---
-## Lorem ipsum
+## Why use Webpack with AWS Lambda?
 
-I recently needed to setup some new architecture on AWS Lambda for a project. Node being the go-to language for most when writing Lambdas I got started as normal, however quickly missed the fuzzy feeling of type safety and decent autocompletion from my normal React + Typescript work.
-
-*   Lorem ipsum
-*   dolor sit amet
+Webpack allows us to bundle a potentially massive project into a single, neat, minified file. This means it is much easier to move this into Lambda and also means any unused dependencies get trimmed out of the final file, drastically decreasing file size.
