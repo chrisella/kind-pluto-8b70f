@@ -4,7 +4,7 @@ has_more_link: true
 more_link_text: Keep reading
 seo:
   title: Full Stack Thoughts
-  description: The preview of the Fjord theme
+  description: Ramblings and brain dumps of a full stack software developer.
   extra:
     - name: 'og:type'
       value: website
