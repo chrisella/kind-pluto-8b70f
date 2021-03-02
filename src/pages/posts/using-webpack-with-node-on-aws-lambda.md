@@ -186,3 +186,4 @@ You need to use the format:
 exports.myHandler = async(event) => { ... } 
 ```
 
+NOT
