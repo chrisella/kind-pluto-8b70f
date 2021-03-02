@@ -152,4 +152,6 @@ Add a new script to the NPM package.json to build using webpack.
 
 ```"build": "webpack"```
 
-### Update any build scripts or 
+### Update any build scripts or buildspec.yml
+
+If you were previously copying any node_module resources as a build step, be sure to remove this from any build script or buildspec.yml files.
