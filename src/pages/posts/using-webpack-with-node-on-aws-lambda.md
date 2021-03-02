@@ -14,6 +14,7 @@ seo:
   extra: []
   type: stackbit_page_meta
 template: post
+thumb_img_path: images/logo-on-white-bg.svg
 ---
 ## Why use Webpack with AWS Lambda?
 
