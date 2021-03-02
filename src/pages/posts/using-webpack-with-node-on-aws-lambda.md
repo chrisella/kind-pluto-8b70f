@@ -83,12 +83,16 @@ module.exports = {
 Install the required NPM dependencies
 
 * webpack
-webpack-cli
-typescript
-ts-node
-fork-ts-checker-webpack-plugin
-cache-loader
-babel-loader
-@babel/preset-typescript
-@babel/preset-env
-@babel/core
+* webpack-cli
+* typescript
+* ts-node
+* fork-ts-checker-webpack-plugin
+* cache-loader
+* babel-loader
+* @babel/preset-typescript
+* @babel/preset-env
+* @babel/core
+
+```
+
+```
