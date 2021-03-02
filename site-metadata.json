@@ -63,7 +63,9 @@
             }
         ]
     },
-    "footer": {},
+    "footer": {
+        "content": "Why are you reading down here ?"
+    },
     "title": "Stackbit Fjord Theme",
     "domain": "https://blog.chrisella.com"
 }
