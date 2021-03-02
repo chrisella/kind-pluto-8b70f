@@ -7,7 +7,7 @@ excerpt: One AWS Lambda setup to rule them all.
 hide_header: false
 seo:
   title: 'Using Webpack for AWS Lambda with NodeJs and Typescript.'
-  description: 'How to use Typescript + NodeJS and write '
+  description: 'How to use Typescript + NodeJS and compile to a single output file using Webpack.'
   robots: []
   extra: []
   type: stackbit_page_meta
