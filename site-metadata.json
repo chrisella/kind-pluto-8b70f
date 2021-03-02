@@ -63,9 +63,7 @@
             }
         ]
     },
-    "footer": {
-        "content": "&copy; Chris Ella. All rights reserved."
-    },
+    "footer": {},
     "title": "Stackbit Fjord Theme",
     "domain": "https://blog.chrisella.com"
 }
