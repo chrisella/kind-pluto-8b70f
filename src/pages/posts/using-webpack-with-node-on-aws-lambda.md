@@ -6,8 +6,8 @@ thumb_img_alt: lorem-ipsum
 excerpt: One AWS Lambda setup to rule them all.
 hide_header: false
 seo:
-  title: 'Using Webpack for AWS Lambda '
-  description: ''
+  title: 'Using Webpack for AWS Lambda with NodeJs and Typescript.'
+  description: 'How to '
   robots: []
   extra: []
   type: stackbit_page_meta
