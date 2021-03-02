@@ -80,4 +80,6 @@ module.exports = {
 };
 ```
 
+Install the required NPM dependencies
 
+* 
