@@ -150,3 +150,6 @@ Create a .babelrc file in the root of your Node project.
 
 Add a new script to the NPM package.json to build using webpack.
 
+```"build": "webpack"```
+
+###
