@@ -199,4 +199,5 @@ These need to be updated to correctly reference the new location of the built fi
 
 ```
 CodeUri: Myfunction/dist/
+Handler: index.myEntryHandler
 ```
