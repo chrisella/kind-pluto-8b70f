@@ -195,4 +195,8 @@ or any other variation.
 
 ### Update any CloudFormation or SAM template
 
-These need to be updated to correctly reference the 
+These need to be updated to correctly reference the new location of the built file I.E. in dist/
+
+```
+
+```
