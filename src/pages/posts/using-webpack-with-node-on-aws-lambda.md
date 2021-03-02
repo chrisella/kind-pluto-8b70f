@@ -1,6 +1,6 @@
 ---
 title: Using Webpack with Nodejs on AWS Lambda
-subtitle: lorem-ipsum
+subtitle: AWS + Lambda + Node + Webpack
 date: '2021-02-26'
 thumb_img_alt: lorem-ipsum
 excerpt: lorem-ipsum
