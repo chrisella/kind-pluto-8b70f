@@ -192,3 +192,5 @@ exports.myHandler = async(event) => { ... }
 export const myhandler = ...
 ```
 or any other variation.
+
+### Update any CloudFormation or SAM template to correct 
