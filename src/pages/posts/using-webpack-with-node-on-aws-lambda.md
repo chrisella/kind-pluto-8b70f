@@ -146,4 +146,7 @@ Create a .babelrc file in the root of your Node project.
 }
 ```
 
-### Update any build sc
+### Update package.json
+
+Add a new script to the NPM package.json to build using webpack.
+
