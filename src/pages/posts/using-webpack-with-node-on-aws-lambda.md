@@ -205,4 +205,4 @@ Handler: index.myEntryHandler
 ```
 
 
-That should be it, now your Node project is compiled with WebPack and runs on AWS Lambda with 
+That should be it, now your Node project is compiled with WebPack and runs on AWS Lambda with limited effort or faff.
