@@ -191,3 +191,4 @@ exports.myHandler = async(event) => { ... }
 ```
 export const myhandler = ...
 ```
+or any other variation.
