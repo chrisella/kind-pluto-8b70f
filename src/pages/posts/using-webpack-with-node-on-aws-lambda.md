@@ -17,6 +17,8 @@ template: post
 
 Webpack allows us to bundle a potentially massive project into a single, neat, minified file. This means it is much easier to move this into Lambda and also means any unused dependencies get trimmed out of the final file, drastically decreasing file size.
 
+
+
 ## Steps
 
 ### Add a Webpack Config
