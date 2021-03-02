@@ -198,5 +198,5 @@ or any other variation.
 These need to be updated to correctly reference the new location of the built file I.E. in dist/
 
 ```
-CodeUri: 
+CodeUri: Myfunction/dist/
 ```
