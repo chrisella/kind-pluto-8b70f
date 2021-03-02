@@ -175,4 +175,13 @@ phases:
 
 Add the new `dist/` folder and `.webpackCache` folders to your .gitignore
 
-###
+### Ensure the entrypoint export is correct
+
+Make sure that the format of your main entry point is exported correctly!
+This is easy to overlook and AWS Lambda will complain about not finding your handler.
+
+You need to use the format:
+
+```
+exports.myHandler = async(event) => { ... } 
+```
