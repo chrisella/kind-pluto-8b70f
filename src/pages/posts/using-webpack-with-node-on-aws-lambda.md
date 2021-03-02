@@ -161,5 +161,9 @@ If you were previously copying any node_module resources as a build step, be sur
 You need to include the package.json in the final dist/ directory, so add a build step to copy this over either in any local build script or in a buildspec.yml e.g.
 
 ```YAML
-
+version: 0.2
+phases:
+  build:
+    commands:
+      
 ```
