@@ -170,3 +170,7 @@ phases:
       - cp package.json dist/package.json
       ...
 ```
+
+### Update Git Ignore
+
+Add the new ```dist/``` folder and `.webpackCache` folders
