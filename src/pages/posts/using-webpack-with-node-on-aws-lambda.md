@@ -193,4 +193,6 @@ export const myhandler = ...
 ```
 or any other variation.
 
-### Update any CloudFormation or SAM template to correct 
+### Update any CloudFormation or SAM template
+
+These need to be updated to correctly reference the 
