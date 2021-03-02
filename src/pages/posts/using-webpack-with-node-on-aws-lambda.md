@@ -158,4 +158,8 @@ If you were previously copying any node_module resources as a build step, be sur
 
 ### Add a step to manually copy the package.json to the dist/ directory
 
-You need to include the package.json in the final dist/ directory, so add a build step
+You need to include the package.json in the final dist/ directory, so add a build step to copy this over either in any local build script or in a buildspec.yml e.g.
+
+```YAML
+
+```
