@@ -173,4 +173,6 @@ phases:
 
 ### Update Git Ignore
 
-Add the new ```dist/``` folder and `.webpackCache` folders
+Add the new `dist/` folder and `.webpackCache` folders to your .gitignore
+
+###
