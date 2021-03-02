@@ -23,3 +23,61 @@ Webpack allows us to bundle a potentially massive project into a single, neat, m
 
 Create a **webpack.config.js** file in the root of your node project.
 
+```Javascript
+const path = require('path');
+const fs = require('fs');
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+
+const debug = process.env.NODE_ENV !== 'production';
+
+const nodeModules = {};
+fs.readdirSync('node_modules')
+  .filter((item) => ['.bin'].indexOf(item) === -1) // exclude the .bin folder
+  .forEach((mod) => {
+    nodeModules[mod] = 'commonjs ' + mod;
+  });
+
+module.exports = {
+  mode: debug ? 'development' : 'production',
+  // mode: "production",
+  entry: './app.ts',
+  devtool: 'source-map',
+  externals: nodeModules,
+  resolve: {
+    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
+  },
+  output: {
+    libraryTarget: 'commonjs2',
+    library: 'index',
+    path: path.join(__dirname, 'dist'),
+    filename: 'index.js',
+  },
+  target: 'node',
+  module: {
+    rules: [
+      {
+        test: /\.(ts|js)x?$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'cache-loader',
+            options: {
+              cacheDirectory: path.resolve('.webpackCache'),
+            },
+          },
+          {
+            loader: 'babel-loader',
+            options: {
+              babelrc: true,
+            },
+          },
+          // "babel-loader",
+        ],
+      },
+    ],
+  },
+  plugins: [new ForkTsCheckerWebpackPlugin()],
+};
+```
+
+
