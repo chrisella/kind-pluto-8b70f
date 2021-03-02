@@ -126,4 +126,22 @@ Create a tsconfig.json file in the root of your Node project.
 }
 ```
 
-###
+### Add a Babel config
+
+Create a .babelrc file in the root of your Node project.
+
+```
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node": "12"
+                }
+            }
+        ],
+        ["@babel/preset-typescript"]
+    ]
+}
+```
