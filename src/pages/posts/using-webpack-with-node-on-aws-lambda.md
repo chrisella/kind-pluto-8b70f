@@ -1,9 +1,9 @@
 ---
 title: Using Webpack with Nodejs on AWS Lambda
-subtitle: AWS + Lambda + Node + Webpack
+subtitle: AWS + Lambda + Node + Typescript + Webpack
 date: '2021-02-26'
 thumb_img_alt: lorem-ipsum
-excerpt: 
+excerpt: One AWS Lambda setup to rule them all.
 hide_header: false
 seo:
   title: ''
