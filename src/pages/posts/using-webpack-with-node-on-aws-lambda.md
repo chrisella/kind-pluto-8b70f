@@ -4,7 +4,7 @@ subtitle: AWS + Lambda + Node + Typescript + Webpack
 date: '2021-03-02'
 thumb_img_alt: lorem-ipsum
 excerpt: >-
-  Why use Webpack with AWS Lambda? Webpack allows us to bundle a potentially
+  Why use Webpack with AWS Lambda?Webpack allows us to bundle a potentially
   massive project into a single, neat, minified file. This means it is much
   easier to move this into Lambda and also means any unused dependencies get
   trimmed out of the final file, drastically decreasing file size. You also
